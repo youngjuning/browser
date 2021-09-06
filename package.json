@@ -1,12 +1,17 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "server.js",
   "license": "MIT",
+  "scripts": {
+    "client": "node client.js",
+    "server": "nodemon"
+  },
   "devDependencies": {
     "@luozhu/eslint-config-base": "^1.8.0",
     "@luozhu/prettier-config": "^1.0.3",
     "eslint": "^7.32.0",
-    "prettier": "^2.3.2"
+    "prettier": "^2.3.2",
+    "nodemon": "^2.0.12"
   }
 }
