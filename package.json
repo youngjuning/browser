@@ -3,12 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "dependencies": {
-    "@luozhu/prettier-config": "^1.0.3",
-    "koa": "^2.13.1"
-  },
   "devDependencies": {
     "@luozhu/eslint-config-base": "^1.8.0",
+    "@luozhu/prettier-config": "^1.0.3",
     "eslint": "^7.32.0",
     "prettier": "^2.3.2"
   }
